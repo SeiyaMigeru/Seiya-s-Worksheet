@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-around pb-40">
       <div className="text-center">
-        <h1 className="text-4xl font-bold">Seiya's Worksheet</h1>
+        <h1 className="text-4xl font-bold">My Worksheet</h1>
       </div>
       <div className="flex flex-col items-center justify-center mt-8">
         <h1 className="text-xl font-semibold mb-4">Activity 1</h1>

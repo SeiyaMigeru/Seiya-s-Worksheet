@@ -9,7 +9,7 @@ interface Todo {
     completed: boolean;
   }
 
-export default function page() {
+export default function TodoPage() {
     const [todos, setTodos] = useState<Todo[]>([]);
     const [newTodo, setNewTodo] = useState<string>('');
   

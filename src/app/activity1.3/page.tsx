@@ -4,7 +4,7 @@ import { useState } from "react";
 
 type CalculatorProps = {};
 
-export default function page({}: CalculatorProps) {
+export default function Calculator({}: CalculatorProps) {
   const [num1, setNum1] = useState<number>(0);
   const [num2, setNum2] = useState<number>(0);
   const [sum, setSum] = useState<number>(0);

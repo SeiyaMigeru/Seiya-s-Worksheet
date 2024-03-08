@@ -3,7 +3,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-export default function page() {
+export default function GrowButton() {
     const [size, setSize] = useState(1);
     const [color, setColor] = useState('#000');
   
